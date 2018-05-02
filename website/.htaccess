@@ -1,4 +1,4 @@
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^((.*)\.)?(packer\.pl)$ [NC]
-RewriteRule ^ https://www.packer.io/ [R=302,L,NE]
+RewriteCond %{HTTP_HOST} ^(.+)\.(packer\.pl)$ [NC]
+RewriteRule ^ http://%2%{REQUEST_URI} [R=301,L,NE]
