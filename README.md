@@ -2,5 +2,5 @@
 
 * Polish Packer website:
   * http://packer.pl/
-* Redirects to Packer website:
+* Based on main Packer website:
   * https://www.packer.io/
